@@ -30,6 +30,8 @@
   .top_toolbar_items {
     width: 15px;
     color: #fff;
+    font-family: 'Lato', sans-serif;
+                                                
   }
 
   .top_toolbar_items_icon {
@@ -87,6 +89,7 @@
     line-height: 20px;
     padding: 10px 12px;
     margin-left: 32px;
+    font-family: 'Lato', sans-serif;
   }
 
   .nav-links :hover {
@@ -166,12 +169,74 @@
     font-size: 32px;
     line-height: 44px;
     color: #fff;
+    font-family: 'Lato', sans-serif;
   }
+
                        /* NavBar section */
   /* ############################################################ */
 
+  .header_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 740px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: red;
+    background-image: url(images/background/header_background.png);
+  }
 
+  .header_section_main_div {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+  }
 
+  .header_text_div {
+    width: 70%;
+  }
+
+  .header_text {
+    width: 100%;
+  }
+
+  .stem_by_us {
+    color: #ec5242;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .header_about_stem {
+    margin-top: 20px;
+    width: auto;
+    max-width: 600px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    padding: 16px;
+    color: #272a31;
+    background-color: rgb(223, 223, 223);
+  }
+
+  .date_of_event {
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 25px;
+    color: #272a31;
+    font-family: 'COCOGOOSE', sans-serif;                                             
+  }
+
+  .event_address {
+    color: #272a31;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 10px;
+  }
 
 
 /* =====================================================================
@@ -193,5 +258,9 @@
 
     .desktop {
       display: none;
+    }
+
+    .header_text_div {
+      width: 90%;
     }
   }
