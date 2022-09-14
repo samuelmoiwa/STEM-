@@ -335,6 +335,18 @@ nav {
   text-align: center;
 }
 
+.join_stem_button {
+  display: none;
+  width: 80%;
+  height: 70px;
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  font-weight: 550;
+  font-size: 14px;
+  background-color: #ec5242;
+  border: none;
+}
+
 .see_the_whole_program {
   color: #fff;
   font-family: 'Lato', sans-serif;
@@ -609,6 +621,15 @@ font-family: 'Lato', sans-serif;
       margin-bottom: 35px;
     }
 
+    .join_stem_button {
+      display: block;
+      margin-bottom: 30px;
+    }
+    
+    .see_the_whole_program {
+      display: none;
+    }
+
     .speaker_div {
       margin-top: 30px;
     }
@@ -628,4 +649,19 @@ font-family: 'Lato', sans-serif;
       height: fit-content;
       padding-bottom: 40px;
      }
+
+     .footer_section {
+      height: fit-content;
+    }
+
+     .footer_main_div {
+      flex-direction: column;
+      width: 90%;
+      margin-top: 20px;
+    }
+
+    .footer_text_div {
+      width: 90%;
+      margin-bottom: 30px;
+    }
   }
