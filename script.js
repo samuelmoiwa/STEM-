@@ -46,7 +46,7 @@ const speakerCardsItems = [
     speaker_image: 'images/img/speaker_joseph.png',
     speaker_name: 'Ing. Joseph Jawah Kebbie',
     speaker_education: 'B.Sc Honours in computer Science, at Njala University Sierra Leone',
-    speaker_bio:  'An experienced web, mobile and desktop application designer and developer. freelanced, developed and managed native and hybrid mobile applications in fields such as an educational software, medical app and entertainment. Head of VEX Robotic at Africa Girls Empathy'
+    speaker_bio:  'An experienced Software designer and developer. Managed native and hybrid mobile applications in fields such as educational software, medical and entertainment. Head of VEX Robotic at Africa Girls Empathy'
   },
   {
     speaker_image: 'images/img/speaker_mo.png',
