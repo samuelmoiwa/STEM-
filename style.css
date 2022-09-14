@@ -337,6 +337,118 @@
     text-decoration: underline;
   }
 
+                         /* Main Program END
+   ############################################################ 
+
+                             Main Featured Speaker section
+   ############################################################ */
+  
+  .featured_speakers_section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: fit-content;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f1f1;
+  padding-bottom: 50px;
+  }
+
+  .featured_speakers_main_div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 80%;
+    height: fit-content;
+    padding-bottom: 30px;
+    margin-top: 60px;
+    gap: 40px;
+  }
+
+  .featured_speakers_header_text {
+    margin-top: 50px;
+    font-weight: 560;
+    font-size: 25px;
+    color: #272a31;
+    font-family: 'Lato', sans-serif;  
+  }
+
+  .featured_speakers_header_text_underline {
+    display: flex;
+    width: 70px;
+    height: 3px;
+    margin-top: 10px;
+    border-radius: 50px;
+    background-color: #ec5242;
+  }
+
+  .speaker_div {
+    display: flex;
+    flex-direction: row;
+    max-width: 500px;
+    width: fit-content;
+    height: 200px;
+    gap: 30px;
+  }
+
+  .speaker_image_container {
+    width: 40%;
+    height: 40%;
+  }
+
+  .speaker_image {
+    width: 100%;
+  }
+
+  .speaker_text_container {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 100%;
+    margin-top: 20px;
+  }
+
+  .speaker_name {
+    font-weight: 560;
+    font-size: 18px;
+    color: #272a31;
+    font-family: 'Lato', sans-serif; 
+  }
+
+  .speaker_education_background {
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 12px;
+    color: #ec5242;
+    font-style: italic;
+    font-family: 'Lato', sans-serif;
+  }
+
+  .divider_line {
+    margin-top: 15px;
+    width: 30px;
+    height: 2px;
+    border-radius: 50px;
+    background-color: #3e3e3e;
+  }
+
+  .speaker_education_bio {
+    margin-top: 20px;
+    font-weight: 300;
+    font-size: 12px;
+    color: #272a31;
+    font-family: 'Lato', sans-serif;
+  }
+
+                         /* Main Featured Speaker section END
+   ############################################################ 
+
+                             Partners section
+   ############################################################ */
+
+  
+
 
 
 /* =====================================================================
@@ -400,5 +512,9 @@
     .see_the_whole_program {
       margin-top: 15px;
       margin-bottom: 35px;
+    }
+
+    .speaker_div {
+      margin-top: 30px;
     }
   }
