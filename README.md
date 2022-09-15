@@ -47,8 +47,6 @@ https://github.com/microverseinc/linters-config <br>
 Thanks to [Cindy Shin](https://www.behance.net/adagio07). <br>
 for the beautiful design guideline that was used in this project.
 
-## view project online: [page link](#)
-
 ## 📝 License
 
 This project is 
