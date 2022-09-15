@@ -67,23 +67,24 @@ speakerCardsItems.forEach((Element, index) => {
   cardSection.classList = 'cardSection';
   const speakerCardHTML = `
 
-<div class="speaker_div">
-  <div class="speaker_image_container">
-    <img class="speaker_image" src="${speakerCardsItems[index].speaker_image}" alt="">
+  <div class="speaker_div">
+    <div class="speaker_image_container">
+      <img class="speaker_image" src="${speakerCardsItems[index].speaker_image}" alt="">
+    </div>
+    <div class="speaker_text_container">
+      <h3 class="speaker_name"> ${speakerCardsItems[index].speaker_name}</h3>
+      <p class="speaker_education_background">
+      ${speakerCardsItems[index].speaker_education}
+      </p>
+      <div class="divider_line"></div>
+      <p class="speaker_education_bio">
+      ${speakerCardsItems[index].speaker_bio}
+      </p>
+    </div>
   </div>
-  <div class="speaker_text_container">
-    <h3 class="speaker_name"> ${speakerCardsItems[index].speaker_name}</h3>
-    <p class="speaker_education_background">
-    ${speakerCardsItems[index].speaker_education}
-    </p>
-    <div class="divider_line"></div>
-    <p class="speaker_education_bio">
-    ${speakerCardsItems[index].speaker_bio}
-    </p>
-  </div>
-</div>
-
+  
 `;
+
   cardSection.innerHTML += speakerCardHTML;
   speakerCard.appendChild(cardSection);
 });
