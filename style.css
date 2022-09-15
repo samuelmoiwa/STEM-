@@ -27,11 +27,12 @@ body {
 .top_toolbar_ul {
   display: flex;
   flex-direction: row;
-  gap: 25px;
+  width: auto;
+  gap: 20px;
 }
 
 .top_toolbar_items {
-  width: 15px;
+  width: auto;
   color: #fff;
   font-family: 'Lato', sans-serif;
 }
@@ -455,6 +456,30 @@ Main Featured Speaker section
   font-family: 'Lato', sans-serif;
 }
 
+.expand_more_place_holder {
+  display: none;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 50px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #d3d3d3;
+}
+
+.more_text {
+  font-weight: 500;
+  font-size: 15px;
+  color: #272a31;
+  font-family: 'Lato', sans-serif;
+}
+
+.expand_arrow {
+  width: 15px;
+  margin-left: 13px;
+}
+
 /* Main Featured Speaker section END
 ############################################################
 Partners section
@@ -559,7 +584,19 @@ Media Query
   }
 
   .top_toolbar {
-    padding-right: 20%;
+    display: none;
+  }
+
+  nav {
+    background-color: transparent;
+  }
+
+  header {
+    position: absolute;
+  }
+
+  .header_logo {
+    display: none;
   }
 
   .mobile-menu-bars {
@@ -623,6 +660,11 @@ Media Query
 
   .speaker_education_bio {
     margin-top: 10px;
+  }
+
+  .expand_more_place_holder {
+    display: flex;
+    cursor: pointer;
   }
 
   .partners_logos {
