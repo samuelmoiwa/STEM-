@@ -1,5 +1,7 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
+## [View project live](https://samuelmoiwa.github.io/STEM-/)
+
 # STEM - VEX Robotic Conference  and Competition
 
 > Description the project.
@@ -47,7 +49,6 @@ https://github.com/microverseinc/linters-config <br>
 Thanks to [Cindy Shin](https://www.behance.net/adagio07). <br>
 for the beautiful design guideline that was used in this project.
 
-## [View project live](https://samuelmoiwa.github.io/STEM-/)
 
 ## 📝 License
 
